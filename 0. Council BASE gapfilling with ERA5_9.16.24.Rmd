@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 ---
-########Testing an edit 3############
+########Testing an edit 4############
+
 title: "Council BASE gapfilling with ERA5 with Kyle" #Here we are tweaking the ERA5 data to match the half-hourly format of the Ameriflux data and gapfilling those half hours from the Ameriflux BASE dataset. (Might be slightly different it you're using the Ameriflux Fullset dataset*)
 output: html_document
 date: "2024-09-16"
@@ -23,16 +24,7 @@ library(openair)
 library(plotrix)
 library(signal)
 library(svMisc)
-library(zoo)
-library(stringr)
-library(plyr)
-library(viridis)
-library(lubridate)
-library(tidyverse)
-library(gridExtra)
-library(plotly)
-library(RColorBrewer)
-library(pracma)
+
 
 Sys.setenv(TZ = "UTC")
 
