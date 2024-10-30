@@ -1,4 +1,5 @@
----
+--- 
+##################################### testing an edit #######################################
 title: "Council BASE gapfilling with ERA5 with Kyle" #Here we are tweaking the ERA5 data to match the half-hourly format of the Ameriflux data and gapfilling those half hours from the Ameriflux BASE dataset. (Might be slightly different it you're using the Ameriflux Fullset dataset*)
 output: html_document
 date: "2024-09-16"
